@@ -233,3 +233,44 @@ XML
     </message>
   </conclusion>
 </conversation_summary>
+
+
+///
+
+name: Journal Publishing
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 1 1,15 * *' # 매월 1일과 15일 새벽 1시
+
+jobs:
+  publish_journal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-extra poppler-utils
+
+      - name: Convert all Markdown files to PDF
+        run: |
+          mkdir -p journal_parts
+          for file in *.md; do
+            pandoc "$file" -o "journal_parts/${file%.md}.pdf"
+          done
+
+      - name: Merge all PDFs into a single journal
+        run: |
+          pdfunite journal_parts/*.pdf snu_structural_review_final.pdf
+
+      - name: Upload the final journal PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: snu-structural-review-journal
+          path: snu_structural_review_final.pdf
