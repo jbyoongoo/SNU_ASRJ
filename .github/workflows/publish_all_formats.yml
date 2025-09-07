@@ -17,8 +17,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-extra qpdf
-
+          sudo apt-get install -y pandoc texlive-latex-extra qpdf texlive-xetex
+      
       - name: Convert all Markdown files to PDF
         run: |
           mkdir -p journal_outputs
