@@ -17,17 +17,19 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-full
+          sudo apt-get install -y pandoc texlive-latex-extra qpdf texlive-xetex fonts-noto-cjk
       
       - name: Convert all Markdown files to PDF
         run: |
-          mkdir -p journal_outputs
-          for file in *.md; do
-            pandoc "$file" -o "journal_outputs/${file%.md}.pdf" --pdf-engine=xelatex -V mainfont="UnGungseo"
-          done
+            echo "PDF generation is temporarily disabled."
+          # mkdir -p journal_outputs
+          # for file in *.md; do
+          #   pandoc "$file" -o "journal_outputs/${file%.md}.pdf" --pdf-engine=xelatex -V mainfont="UnGungseo"
+          # done
       
       - name: Convert all Markdown files to HTML
         run: |
+          mkdir -p journal_outputs
           for file in *.md; do
             pandoc "$file" -o "journal_outputs/${file%.md}.html"
           done
@@ -40,13 +42,13 @@ jobs:
 
       - name: Merge PDFs into a single journal
         run: |
-          qpdf --empty --pages journal_outputs/*.pdf -- snu_structural_review_final.pdf
+          echo "PDF merging is temporarily disabled."
+          # qpdf --empty --pages journal_outputs/*.pdf -- snu_structural_review_final.pdf
 
       - name: Upload all journal formats
         uses: actions/upload-artifact@v4
         with:
           name: snu-structural-review-journal
           path: |
-            snu_structural_review_final.pdf
             journal_outputs/*.html
             journal_outputs/*.epub
