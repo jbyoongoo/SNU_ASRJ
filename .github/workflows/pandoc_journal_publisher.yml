@@ -31,7 +31,7 @@ jobs:
           qpdf --empty --pages journal_parts/*.pdf -- snu_structural_review_final.pdf
       
       - name: Upload the final journal PDF
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: snu-structural-review-journal
           path: snu_structural_review_final.pdf
