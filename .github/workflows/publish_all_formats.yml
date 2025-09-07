@@ -1,4 +1,4 @@
-name: Journal Publishing
+name: Publish All Formats
 
 on:
   push:
@@ -19,20 +19,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-latex-extra qpdf
 
-      - name: Convert all Markdown to PDF
+      - name: Convert all Markdown files to PDF
         run: |
           mkdir -p journal_outputs
           for file in *.md; do
-            pandoc "$file" -o "journal_outputs/${file%.md}.pdf"
+            pandoc "$file" -o "journal_outputs/${file%.md}.pdf" --pdf-engine=xelatex -V mainfont="Noto Sans KR"
           done
       
-      - name: Convert all Markdown to HTML
+      - name: Convert all Markdown files to HTML
         run: |
           for file in *.md; do
             pandoc "$file" -o "journal_outputs/${file%.md}.html"
           done
 
-      - name: Convert all Markdown to EPUB
+      - name: Convert all Markdown files to EPUB
         run: |
           for file in *.md; do
             pandoc "$file" -o "journal_outputs/${file%.md}.epub"
