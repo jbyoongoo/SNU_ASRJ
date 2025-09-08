@@ -57,8 +57,9 @@ https://m.blog.naver.com/jbyoonnav/223811008531
 https://m.blog.naver.com/kusa_youthcenter/223814859108 
 ///성찰_상호이해와협동_위기실천나눔 
 세분야 소학회를 두루 거친후에야 정회원이 되는 까다로운 규범을 만들되 넓고도 깊게 도반들과 함께하는 방식 
-
 https://m.blog.naver.com/kusa_youthcenter/223964462449? 
+
+///
 아래는 제공해주신 블로그 게시물 내용을 바탕으로 작성된 'SNU Structural Review' 저널 테스트베드 원고 초안입니다. YAML 프런트 매터를 추가하고 내용을 학술 저널에 맞게 정리했습니다.
 
 Markdown
