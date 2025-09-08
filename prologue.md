@@ -1,9 +1,6 @@
 발간사 (한국어 원문)
 
-아시다시피 저는 오래전부터 서울대 구조 연구실 출신의 동문들이 관악클럽이름으로 상호이해와 협동으로 활동하는 것을 염원해 왔습니다~ 
-또한, 이런 사례를 통해 같은 서울대 건축인들이 구조분야가 아닌 분야까지도 연계되고, 나아가 다른 대학 출신들도 유사한 클럽활동이 활성화된다면,
-우리나라의 건축계에 학풍과 개성이 다른 나름의 클럽들이 생기면서 하모니를 만드는, 그런 
-멋진 화엄 연기의 중중 무진세계를 발원해봅니다.
+아시다시피 저는 오래전부터 서울대 구조 연구실 출신의 동문들이 "관악클럽" 이라는 이름으로 상호이해와 협동으로 활동하는 것을 염원해 왔습니다. 또한, 이런 사례를 통해 같은 서울대 건축인들이 구조분야가 아닌 분야까지도 연계되고, 나아가 다른 대학 출신들도 유사한 클럽활동이 활성화된다면, 우리나라의 건축계에 학풍과 개성이 다른 나름의 클럽들이 생기면서 하모니를 만드는, 그런 멋진 화엄 연기의 중중 무진세계를 발원해봅니다.
 
 Prolog (English)
 As you know, I have long hoped for alumni from the SNU Structural Engineering Lab to engage in activities under the name of the Gwanak Club, fostering mutual understanding and cooperation. Furthermore, through this example, I hope that fellow SNU architects will connect with those in other fields beyond structural engineering. If similar club activities are also activated by graduates from other universities, a beautiful world of "Flower Garland" harmony will emerge, where clubs with different academic styles and unique characters will be created within Korea's architectural community.
