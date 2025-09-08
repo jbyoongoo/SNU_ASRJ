@@ -95,7 +95,7 @@ abstract: |
 # 2. TDMP-RDLR-TCOP 체계와 철학적 재고찰
 
 필자가 그동안 구상해왔던 TDMP-RDLR-TCOP(TDMP: Top Disaster Management Platform, 
-RDLR: Risk-Damage-Loss-Resiliency, TCOP: Target cored Ontology Platform) 체계는 
+RDLR: Risk-Damage-Loss-Resiliency, TCOP: Target Cored Ontology Platform) 체계는 
 본래 위기 관리 및 기술 협력을 위한 프레임워크였다. 그러나 이번 논의를 통해 이 체계가 아직 활성화되지 못한 이유가 기술적 구현의 문제뿐만 아니라, '성찰, 상호이해와 협동, 위기 실천 나눔'이라는 철학적 가치의 부재에 있다는 것을 깨달았다. 이는 재난 대응 기술이 단순히 문제를 해결하는 도구가 아닌, 공동체의 정신적 역량과 결합되어야 한다는 점을 시사한다. 이러한 정신을 바탕으로, 소규모 학회를 통해 깊이 있는 교류를 형성하고, 이를 거쳐 정회원이 되는 규범을 마련하는 것이 지속 가능한 인적 네트워크 구축의 첫걸음이 될 것이다.
 
 # 3. 분산형 재난 대응 체계: Zone Defence 개념의 구체화
